@@ -92,3 +92,19 @@ Common chmod values
 755 - Read by Owner + Write by Owner + Execute by Owner + Read by Group + Execute by Group + Read by anyone (common for files in user’s home directory) 
 644 - Everyone read, only owner can write.
 ```
+# Streams
+
+There are 3 types of streams in bash. Standard Output, Error and Input stream. These streams are used to receive and send sequences of characters into and out of bash.
+```
+stdout a standard output stream which displays output from commands.
+stderr a standard error stream which displays error output from commands.
+strdin a standard input stream which provides input to commands.
+```
+# Redirects
+
+Redirection is used to send and redirect the output of one command to another command / file etc.
+```
+n> this redirect the output from file n to another file or command.
+If the file does not exist it is created.
+```
+If it does exists it's content is overriden and no warning is given.
