@@ -106,5 +106,9 @@ Redirection is used to send and redirect the output of one command to another co
 ```
 n> this redirect the output from file n to another file or command.
 If the file does not exist it is created.
-```
 If it does exists it's content is overriden and no warning is given.
+```
+Example
+```
+head -n 2 file1txt > file2.txt
+```
