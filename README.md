@@ -1,3 +1,23 @@
+# Head Tail Sort
+
+Head prints the first 10 lines out of the file by default
+```
+head <filename>
+```
+With the addition of -n flag we can specify how many lines we would like to see
+```
+head -n 2 <filename>
+```
+Tail works the same way as head but instead prints the bottom lines of the file
+```
+tail <filename>
+tail -n 2 <filename>
+```
+Sort is used to alphabetically or numerically sort the content by each line.
+```
+sort <filename>
+```
+
 # Permissions
 ## General
 Using the ls -l command. (-l is for lonf format)
