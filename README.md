@@ -206,12 +206,6 @@ grep -i "hello" text.txt
 ```
 - returns every line that contains hello in whatever combination of upper or lowercase letters (e.g. "hellO", "hElLO", "HELLO")
 
-# Streams
-- Every program that runs on the command line automatically has three data streams connected to it
-1. STDIN - this is the data fed into the program
-2. STDOUT - data printed by program, will default to terminal
-3. STDERR - data printed in case of error, will default to terminal
-
 # Piping
 - Using the character | we can feed the the output from the left program as input to the right program
 - You can pipe as many times as needed and it follows intuitively
